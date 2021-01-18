@@ -3,13 +3,13 @@ Installing required packages:
 
 Usage:
     Train:
-        $ si.py train [OPTIONS] TRAIN_LIST_FNAME CODEBOOKS_FNAME
+        $ python si.py train [OPTIONS] TRAIN_LIST_FNAME CODEBOOKS_FNAME
         Options:
             -nc INTEGER  Number of clusters  [default: 32]
             --help       Show help message
 
     Test:
-        $ si.py test [OPTIONS] TEST_LIST_FNAME CODEBOOKS_FNAME
+        $ python si.py test [OPTIONS] TEST_LIST_FNAME CODEBOOKS_FNAME
         Options:
             -o      PATH  Output file name
             --help        Show help message
