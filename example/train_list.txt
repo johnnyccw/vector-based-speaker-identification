@@ -1,0 +1,4 @@
+example/train/0.wav
+example/train/1.wav
+example/train/2.wav
+example/train/3.wav

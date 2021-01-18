@@ -1,0 +1,8 @@
+example/test/00.wav 0
+example/test/01.wav 0
+example/test/10.wav 1
+example/test/11.wav 1
+example/test/20.wav 2
+example/test/21.wav 2
+example/test/30.wav 3
+example/test/31.wav 3

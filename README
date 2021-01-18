@@ -1,0 +1,27 @@
+Installing required packages:
+    $ pip install -r requirements.txt
+
+Usage:
+    Train:
+        $ si.py train [OPTIONS] TRAIN_LIST_FNAME CODEBOOKS_FNAME
+        Options:
+            -nc INTEGER  Number of clusters  [default: 32]
+            --help       Show help message
+
+    Test:
+        $ si.py test [OPTIONS] TEST_LIST_FNAME CODEBOOKS_FNAME
+        Options:
+            -o      PATH  Output file name
+            --help        Show help message
+        (if no output file name is given, the result will be printed to stdout)
+
+TRAIN_LIST_FNAME:
+    A txt file, which contains a list of files to train the codebooks for each speaker.
+
+TEST_LIST_FNAME:
+    A txt file, which contains a list of files to be tested.
+
+CODEBOOKS_FNAME:
+    A pkl file stores the codebooks for each speaker.
+
+
